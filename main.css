@@ -1,0 +1,162 @@
+* { box-sizing: border-box; }
+
+body{
+	font: sans-serif;
+	background-image: url("matrix.jpg");
+}
+
+header {
+	font-size: 3em;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	font-weight: bold;
+	width: 80%;
+	margin: 1% auto;
+	text-shadow: 2px 2px #E8E8E8;
+	color: grey;
+}
+
+
+div.inputContainer {
+	display: inline-block;
+	
+	background-color: #E8E8E8;
+	width: 40%;
+	/*height: 46%;*/
+	/*padding: auto;*/
+	margin: 2% 2% ;
+
+}
+
+.containers {
+	background-color: #E8E8E8;
+	border-radius: 5px;
+	height: 150px;
+	width: 80%;
+	margin: 10px auto;
+	text-align: center;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+input {
+	width: 90%;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	
+
+}
+#lastContainer {
+	background-color: #E8E8E8;
+	border-radius: 5px;
+	height: 150px;
+	width: 80%;
+	margin: 2% auto;
+	display: table;
+	box-shadow: 10px 10px 5px #888888;
+}
+#row  {
+    display: table-row;
+    
+    }
+
+#left, #right, #middle2, #middle {
+    display: table-cell;
+    text-align: center;
+    padding-top: 40px;
+    }
+#secondContainer {
+	background-color: #E8E8E8;
+	border-radius: 5px;
+	height: 150px;
+	width: 80%;
+	margin: 2% auto;
+	text-align: center;
+	padding-top: 30px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+footer {
+	text-align: center;
+	color: white;
+
+}
+
+button {
+	border-radius: 20px;
+	background-color: /*#4d94ff*/#669999;
+	color: white;
+	padding: 5px 30px;
+	width: 10%;
+	display: inline-block;
+	width: 130px;
+	height: 50px;
+	margin: auto 5px;
+	text-align: center;
+
+
+}
+#buttonContainer {
+	height: 30%;
+}
+
+img {
+	float: right;
+	margin-right: 30px;
+
+}
+
+label {
+	font-weight: bold;
+}
+
+#n_keypad{
+
+	background-color: #d3d3d3;
+	 width:200px;
+    
+    position:absolute;
+    height:250px;
+    border-radius: 5px;
+    top: 30%;
+    left: 70%;
+
+}
+.numero {
+	
+	width:22%;
+	height: 20%;
+}
+td {
+	margin: auto;
+	width:22%;
+	height: 20%;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #BFBABA;
+	font-size: 1.5em;
+}
+
+#tb_cont {
+    position: relative;
+    width: auto;
+}
+#clear_input {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    position: absolute;
+    right: 8px;
+    top: 37px;
+    text-align: center;
+    background-color: #999999;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-family: monospace;
+    border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    cursor: pointer;
+  }
